@@ -1,0 +1,73 @@
+.content-painel{
+    overflow-y: scroll;
+}
+
+.content-painel::-webkit-scrollbar{
+    width: 12px;
+    background-color: rgb(210,210,210);
+    border-radius: 10px;
+}
+
+.content-painel::-webkit-scrollbar-thumb{
+    background-color: rgb(170,170,170);
+    border-radius: 10px;
+}
+
+.painel .usuario{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.painel .usuario h5.name{
+    font-size: 15px;
+    color: rgb(40,40,40);
+    font-weight: normal;
+    padding: 5px;
+    border: 1px solid rgb(180,180,180);
+    border-radius: 5px;
+    cursor: copy;
+}
+
+.painel .usuario .copy-name{
+    position: absolute;
+    top: 35px;
+    padding: 5px;
+    background-color: rgb(180,180,180);
+    border: 1px solid rgb(60,60,60);
+    color: rgb(60,60,60);
+    font-size: 15px;
+}
+
+.painel .usuario h5.email{
+    margin-left: auto;
+    font-size: 15px;
+    color: rgb(40,40,40);
+    font-weight: normal;
+    padding: 5px;
+    border: 1px solid rgb(180,180,180);
+    border-radius: 5px;
+    cursor: copy;
+}
+
+.painel .content-mensagem{
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+    padding: 15px 0 10px 0;
+}
+
+.painel p.mensagem{
+    width: calc(100% - 36px);
+    display: inline-block;
+}
+
+.painel .content-mensagem svg{
+    font-size: 28px;
+    color: rgb(170,170,170);
+    padding: 0 4px;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+}

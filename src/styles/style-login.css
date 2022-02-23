@@ -1,0 +1,92 @@
+.login{
+    width: 100%;
+    height: 100%;
+}
+
+.login .container{
+    height: 100%;
+    justify-content: center;
+}
+
+.box-login{
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    border: 1px solid #4999ab;
+    box-shadow: 0 0 10px 0 #4999ab;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.box-login .img-login{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-login img{
+    max-width: 100px;
+}
+
+form.form-login{
+    margin-top: 40px;
+    width: 100%;
+}
+
+.wraper-input{
+    width: 100%;
+    position: relative;
+    padding: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.wraper-input svg{
+    width: 25px !important;
+    position: absolute;
+    right: 7px;
+    top: 21px;
+    color: #f56262;
+    filter: drop-shadow(0 0 10px #f56262);
+    cursor: pointer;  
+}
+
+.wraper-input:last-of-type{
+    padding-top: 25px;
+}
+
+.wraper-input input[type=email], .wraper-input input[type=password], .wraper-input input[type=text]{
+    width: 100%;
+    height: 38px;
+    border-radius: 5px;
+    border: 1px solid #f56262;
+    background-color: black!important;
+    outline: 0;
+    box-shadow: 0 0 5px 0 #f56262;
+    color: #999!important;
+    padding: 0 10px;
+}
+
+.wraper-input input[type=email]::placeholder, .wraper-input input[type=password]::placeholder, .wraper-input input[type=text]::placeholder{
+    color: #f56262;
+}
+
+.wraper-input .danger{
+    font-size: 15px;
+    color: #f56262;
+    margin-top: 10px;
+}
+
+.wraper-input input[type=submit]{
+    width: 120px;
+    height: 38px;
+    font-size: 14px;
+    cursor: pointer;
+    color: #4999ab;
+    background-color: black;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 0 8px 0 #4999ab;
+}

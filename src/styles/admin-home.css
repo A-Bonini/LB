@@ -1,0 +1,34 @@
+.wraper-input-home{
+    position: relative;
+    width: 100%;
+}
+
+.wraper-input-home label{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(180,180,180);
+    display: inline-block;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgb(230,230,230);
+}
+
+.wraper-input-home label svg{
+    font-size: 22px;
+    color: rgb(180,180,180);
+}
+
+.wraper-input-home input[type=file]{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10px;
+    opacity: 0;
+}

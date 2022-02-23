@@ -1,0 +1,127 @@
+.create_cursos .painel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create_cursos .create-single{
+    width: 100%;
+    max-width: 400px;
+    border: 1px solid rgb(40,40,40);
+    padding: 15px;
+    background-color: #444649;
+    border-radius: 8px;
+    box-shadow: 8px 8px 15px 2px rgb(100,100,100);
+}
+
+.create_cursos .painel form{
+    margin-top: 0;
+}
+
+.create_cursos form .wraper-create{
+    width: 100%;
+    position: relative;
+}
+
+.create_cursos form .wraper-create label{
+    width: 100%;
+    height: 220px;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    z-index: 2;
+}
+
+.create_cursos form .wraper-create .img-label{
+    display: block;
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 3;
+}
+
+.create_cursos form .wraper-create label.label-default{
+    background-color: rgb(120,120,120);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.create_cursos .wraper-create label svg{
+    display: inline-block;
+    font-size: 40px;
+    color: rgb(210,210,210);
+}
+
+.create_cursos .wraper-create input[type=file]{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.create_cursos input[type=text]{
+    margin-top: 15px;
+    border: 1px solid rgb(40,40,40);
+    border-radius: 5px;
+    background-color: rgb(40,40,40);
+    color: rgb(120,120,120);
+    font-size: 15px;
+    border: 1px solid rgb(120,120,120);
+}
+
+.create_cursos input[type=text]::placeholder{
+    color: rgb(100,100,100);
+}
+
+.create_cursos .wraper-input-submit{
+    width: 100%;
+    text-align: center;
+}
+
+.create_cursos .wraper-input-submit input[type=submit]{
+    background-color: rgb(40,40,40);
+    border: 1px solid rgb(120,120,120);
+    box-shadow: 0 10px 15px 2px rgba(0,0,0, 0.4);
+    position: relative;
+}
+
+.create_cursos .wraper-input-submit input[type=submit]:active{
+    transform: translateY(1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Success */
+
+.curso-success{
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: rgb(40,40,40);
+    border: 1px solid #1b5e20;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.curso-success p{
+    color: #1b5e20;
+}
+
+.curso-error{
+    width: 100%;
+    padding: 10px 0;
+    margin-top: 10px;
+    background-color: rgb(40,40,40);
+    border: 1px solid #d50000;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.curso-error p{
+    color: #d50000;
+}

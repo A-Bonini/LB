@@ -1,0 +1,202 @@
+/* Cursos */
+
+.cursos-admin{
+    width: 100%;
+    height: 100%!important;
+    margin-bottom: 0 !important;
+    padding: 10px 10px;
+    background-color: rgb(240,240,240);
+}
+
+.wraper-painel-cursos{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow-y: scroll;
+    padding: 20px 20px;
+    background-color: white;
+}
+
+.cursos-admin .wraper-painel-cursos .wraper-topo-cursos{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.cursos-admin .wraper-painel-cursos h2{
+    display: inline-block;
+}
+
+.cursos-admin .wraper-painel-cursos .wraper-topo-cursos a{
+    margin-left: auto;
+}
+
+.cursos-admin .wraper-painel-cursos button.create{
+    width: 80px;
+    height: 32px;
+    font-size: 15px;
+    margin-top: 0;
+    display: inline-block;
+}
+
+.cursos-admin .wraper-painel-cursos button.create:active{
+    transform: translateY(1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.wraper-cursos{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.curso-single-admin{
+    border-radius: 10px;
+    padding: 10px 10px 20px 10px;
+    width: 32%;
+    max-width: 300px;
+    background-color: #444649 !important;
+    border: 1px solid rgb(40,40,40);
+    box-shadow: 8px 8px 15px 2px rgb(100,100,100);
+    margin: 0 0.666%;
+    margin-top: 10px;
+}
+
+.curso-single-admin .img-curso{
+    width: 100%;
+    height: 160px;
+    border-radius: 5px;
+    background-color: rgb(120,120,120);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.curso-single-admin .title-curso{
+    margin-top: 10px;
+}
+
+.curso-single-admin .title-curso h3{
+    font-size: 17px;
+    color: rgb(200,200,200);
+    filter: drop-shadow(0 7px 4px rgba(0,0,0, 0.8));
+}
+
+.curso-single-admin .body-curso{
+    margin-top: 8px;
+    width: 100%;
+    height: 125px;
+    display: block;
+}
+
+.curso-single-admin .body-curso p{
+    width: 100%;
+    max-height: 150px;
+    font-size: 15px;
+    color: rgb(190,190,190);
+    filter: drop-shadow(0 7px 4px rgba(0,0,0, 0.8));
+}
+
+.curso-single-admin .saiba-mais{
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.curso-single-admin .saiba-mais a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 33px;
+    background-color: rgb(40,40,40);
+    border-radius: 5px;
+    border: 1px solid rgb(120,120,120);
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-weight: normal;
+    box-shadow: 0 10px 15px 2px rgba(0,0,0, 0.4);
+}
+
+.curso-single-admin .saiba-mais a:active{
+    transform: translateY(1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.curso-single-admin .buttons{
+    width: 100%;
+    margin-top: 15px;
+    padding: 0 10px;
+    display: flex;
+}
+
+.curso-single-admin .buttons button{
+    cursor: pointer;
+    width: 33.333%;
+    height: 33px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.curso-single-admin .buttons a.update-link{
+    margin-left: auto;
+    display: flex;
+    width: 33.333%;
+    height: 33px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.curso-single-admin .buttons .update{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40,40,40);
+    border: 1px solid #1565c0;
+    color: #1565c0;
+    box-shadow: 0 10px 15px 2px rgba(0,0,0, 0.4);
+    position: relative;
+}
+
+.curso-single-admin .buttons .update:active{
+    transform: translateY(1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.curso-single-admin .buttons .delete{
+    background-color: rgb(40,40,40);
+    border: 1px solid #b71c1c;
+    color: #b71c1c;
+    box-shadow: 0 5px 15px 2px rgba(0,0,0, 0.4);
+    position: relative;
+}
+
+.curso-single-admin .buttons .delete:active{
+    transform: translateY(1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Sobre */
+
+.wraper-input-sobre{
+    padding: 5px 0;
+}
+
+
+/* Media query */
+
+@media screen and (max-width: 768px){
+    .curso-single-admin{
+        width: 100%;
+    }
+}

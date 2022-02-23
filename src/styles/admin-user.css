@@ -1,0 +1,157 @@
+.wraper-user{
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.wraper-user-topo{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px 0 15px 0;
+    flex-wrap: wrap;
+}
+
+.wraper-user-topo a{
+    margin-left: auto;
+}
+
+.wraper-user-topo button{
+    background-color: rgb(60,60,60);
+    border: 2px solid rgb(120,120,120);
+    box-shadow: 0 5px 10px 2px rgba(0,0,0, 0.4);
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    top: -6px;
+}
+
+.wraper-user-topo button:active{
+    transform: translateY(1px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.content-users{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.current-user{
+    border: 1px solid #4527a0  !important;
+    order: 0 !important;
+}
+
+.current-user .info-user{
+    border-right: 1px solid #4527a0!important;
+}
+
+.wraper-user{
+    width: 100%;
+    order: 2;
+}
+
+.wraper-user .info-user{
+    height: 50px;
+    width: calc(100% - 50px);
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    border-right: 1px solid #ccc;
+}
+
+.wraper-user .info-user h4{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(120,120,120);
+}
+
+.wraper-user .info-user p{
+    margin-left: auto;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(120,120,120);
+}
+
+.wraper-user .delete-user{
+    width: 50px;
+    height: 48px;
+    color: #c62828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+
+/* BG */
+
+.bg{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255,255,255, 0.7);
+}
+
+.box-bg{
+    width: 100%;
+    max-width: 400px;
+    padding: 50px 0;
+    background-color: rgb(80,80,80);
+    border-radius: 10px;
+    border: 2px solid rgb(20,20,20);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.box-bg h3{
+    width: 100%;
+    font-size: 25px;
+    color: rgb(180,180,180);
+    text-align: center;
+}
+
+.box-bg .buttons-delete{
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.box-bg .buttons-delete button{
+    width: 100%;
+    max-width: 120px;
+    height: 40px;
+    border: 1px solid rgb(120,120,120);
+    border-radius: 5px;
+    background-color: rgb(40,40,40);
+    color: rgb(120,120,120);
+    cursor: pointer;
+}
+
+@media screen and (max-width: 680px){
+    .wraper-user .info-user p{
+        display: none;
+    }
+    .painel{
+        overflow: auto;
+    }
+    .wraper-user-all{
+        min-width: 300px;
+        width: 100%;
+    }
+}

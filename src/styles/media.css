@@ -1,0 +1,29 @@
+.wraper-input-media{
+    margin-bottom: 10px;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.wraper-input-media .box-svg{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wraper-input-media .box-svg svg{
+    font-size: 25px;
+    color: rgb(140,140,140);
+}
+
+.wraper-input-media input[type=text]{
+    width: calc(100% - 40px);
+}
+
+.painel button{
+    margin-left: 5px;
+}

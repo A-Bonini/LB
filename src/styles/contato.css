@@ -1,0 +1,125 @@
+.contato{
+    width: 100%;
+    height: calc(100% - 136px);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.contato .container{
+    height: 100%;
+    align-items: center;
+}
+
+.contato-left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contato-img{
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 110px 80px black;
+    background-color: black;
+}
+
+.contato-img img{
+    display: inline-block;
+    max-width: 100%;
+}
+
+.contato-right{
+    margin-left: auto;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contato-form{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgb(10,10,10);
+    border-radius: 10px;
+    border: 1px solid #4999ab;
+    box-shadow: 0 0 15px 2px #4999ab;
+}
+
+.contato-form h2{
+    width: 100%;
+    text-align: center;
+    color: #fe6262;
+    filter: drop-shadow(0 0 12px #fe6262);
+    margin-bottom: 15px;
+}
+
+.contato-form .wraper-contato{
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contato-form .wraper-contato input[type=text], .contato-form .wraper-contato input[type=email]{
+    width: 100%;
+    height: 33px;
+    border: 1px solid #fe6262;
+    background-color: rgb(20,20,20);
+    border-radius: 5px;
+    padding: 0 8px;
+    outline: 0;
+    color: rgb(120,120,120);
+}
+
+.contato-form .wraper-contato textarea{
+    width: 100%;
+    height: 80px;
+    border: 1px solid #fe6262;
+    background-color: rgb(20,20,20);
+    border-radius: 5px;
+    outline: 0;
+    color: rgb(120,120,120);
+    resize: none;
+    padding: 8px;
+}
+
+.contato-form .wraper-contato textarea::-webkit-scrollbar{
+    background-color: rgb(30,30,30);
+    width: 12px;
+    border-radius: 7px;
+}
+
+.contato-form .wraper-contato textarea::-webkit-scrollbar-thumb{
+    background-color: rgb(50,50,50);
+    border-radius: 7px;
+}
+
+.contato-form .wraper-contato input[type=submit]{
+    width: 100px;
+    height: 33px;
+    border: 1px solid #4999ab;
+    border-radius: 5px;
+    background-color: rgb(30,30,30);
+    cursor: pointer;
+    font-size: 15px;
+    color: #4999ab;
+}
+
+/* media query */
+
+@media screen and (max-width: 680px){
+    .contato-left{
+        display: none;
+    }
+    .contato-right{
+        width: 100%;
+    }
+}
