@@ -1,2 +1,2 @@
 # LBusinessJ
-Bloco de notas virtual, inspirado no Evernote. Tecnologias utilizadas foram Javascript, React, Node, Mongoose, Express, Bulma, Rbx, Sass, Axios, Bcrypt, JsonWebToken, HTML, Cors, Dotenv, MongoDb.
+Landing Page para empresa sobre Marketing Digital, com painel administrativo capaz de modificar todos os dados do site. Tecnologias utilizadas foram Javascript, React, HTML, CSS, Node, Mongoose, Express, Bcrypt, Dotenv, Multer, JsonWebToken, Cors, e MongoDb.
