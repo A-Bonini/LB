@@ -4,6 +4,7 @@ Landing Page para empresa sobre Marketing Digital, com painel administrativo cap
 ## installation
 
 ```sh
+npm install
 npm start
 ```
 Em seguida, abra http://localhost:3000/ para ver seu aplicativo.
