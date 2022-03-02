@@ -11,4 +11,4 @@ O projeto foi dividito em 2 repositórios, um para o Front-end e outro para o Ba
 npm install
 npm start
 ```
-Em seguida, abra http://localhost:3000/ para ver seu aplicativo.
+Em seguida, abra http://localhost:3000/ para ver seu aplicativo Front-end, e abra http://localhost:3001/ para ver seu aplicativo Back-end.
